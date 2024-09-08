@@ -14,7 +14,7 @@ This is a simple web-based calculator application built using HTML, CSS, and Jav
 - JavaScript: Functional logic for performing calculations
 
 ### How to Use
-1. Clone this repository to your local machine: #### git clone https://github.com/jAnubhav/Calculator-JS
+1. Clone this repository to your local machine: <b><i>git clone https://github.com/jAnubhav/Calculator-JS</i></b>
 3. Open the index.html file in your web browser.
 
 ### Files in the Project
