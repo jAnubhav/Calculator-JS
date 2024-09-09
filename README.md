@@ -9,18 +9,21 @@ This is a simple web-based calculator application built using HTML, CSS, and Jav
 - Real-time display of results
 
  ### TechStack Used
-- HTML: Structure and layout of the calculator
-- CSS: Styling and responsive design
-- JavaScript: Functional logic for performing calculations
+- **HTML**: Structure and layout of the calculator
+- **CSS**: Styling and responsive design
+- **JavaScript**: Functional logic for performing calculations
 
 ### How to Use
-1. Clone this repository to your local machine: <b><i>git clone https://github.com/jAnubhav/Calculator-JS</i></b>
-3. Open the index.html file in your web browser.
+1. Clone this repository to your local machine:
+``` bash
+git clone https://github.com/jAnubhav/Calculator-JS
+```
+2. Open the index.html file in your web browser.
 
 ### Files in the Project
-- index.html: The main HTML file that contains the structure of the calculator.
-- style.css: The CSS file for styling the calculator.
-- script.js: The JavaScript file that contains the logic for performing calculations.
+- **index.html**: The main HTML file that contains the structure of the calculator.
+- **style.css**: The CSS file for styling the calculator.
+- **script.js**: The JavaScript file that contains the logic for performing calculations.
 
 ### Future Enhancements
 - Implement additional functions such as square root, percentage, and exponentiation.
