@@ -18,7 +18,7 @@ This is a simple web-based calculator application built using HTML, CSS, and Jav
 ``` bash
 git clone https://github.com/jAnubhav/Calculator-JS
 ```
-2. Open the index.html file in your web browser.
+2. Open the `index.html` file in your web browser.
 
 ### Files in the Project
 - **index.html**: The main HTML file that contains the structure of the calculator.
