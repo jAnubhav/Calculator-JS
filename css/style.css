@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    height: 0;
+}
+
+body {
+    height: 100vh;
+    background: #9e4636;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.d-grid {
+    display: grid;
+    place-items: center;
+}
+
+#container {
+    flex-direction: column;
+    width: 310px;
+}
+
+.spacing {
+    gap: 10px;
+}
+
+.round {
+    border-radius: 5px;
+}
+
+#title {
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+
+#container, #title {
+    display: flex;
+}
+
+#entry-box {
+    width: 100%;
+    text-align: right;
+    font-size: 1.8em;
+}
+
+#title, #entry {
+    color: white;
+}
+
+#entry {
+    justify-content: flex-end;
+    overflow-x: scroll;
+}
+
+#numpad {
+    grid-template-columns: 3fr 1fr;
+}
+
+#entry-box, #numpad {
+    padding: 15px;
+    background: #461d1d;
+}
+
+#numbers {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#clearings {
+    grid-column: 1 /span 2;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.btn {
+    width: 60px;
+    height: 40px;
+    margin: 5px;
+    background: #dadada;
+}
+
+#title, .btn {
+    font-size: 1.2em;
+}
+
+#container, .btn {
+    font-weight: 600;
+}
+
+.btn:hover {
+    background: #b8b8b8;
+}
+
+.operators {
+    background: #eb8c8c;
+}
+
+.operators:hover {
+    background: #c26363;
+}
+
+.clearings {
+    width: 130px;
+    background: #b32323;
+    color: white;
+}
+
+.clearings:hover {
+    background: #811c1c;
+}
+
+.equals {
+    background: #e9803a;
+}
+
+.equals:hover {
+    background: #bb6125;
+}
